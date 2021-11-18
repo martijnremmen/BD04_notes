@@ -5,6 +5,7 @@ name: Compileer TeX
 steps:
   - name: Genereer PDF
     image: texlive:latest
+    pull: never
     commands:
       - biber main
       - pdflatex main
