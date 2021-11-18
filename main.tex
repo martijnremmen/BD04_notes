@@ -1,0 +1,59 @@
+\documentclass[a4paper, 11pt]{report}
+
+\usepackage[a4paper,total={170mm,257mm},left=2cm,top=2cm]{geometry}
+
+\usepackage[dutch]{babel}
+\usepackage{csquotes}
+
+\usepackage[hybrid]{markdown}
+
+\usepackage{biblatex}
+\addbibresource{bibliography.bib}
+
+\usepackage{FiraMono}
+\usepackage{FiraSans}
+\usepackage{DejaVuSerifCondensed}
+\usepackage[T1]{fontenc}
+
+\usepackage{titlesec}
+
+\usepackage{makecell}
+
+\usepackage{lipsum}
+
+%% For code snippets
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\newcommand{\titel}{Samenvatting}
+\newcommand{\project}{BD04 Data Science}
+\newcommand{\auteur}{
+Martijn Remmen
+}
+\newcommand{\datum}{\today}
+\newcommand{\opdrachtgever}{Zuyd Hogeschool}
+\newcommand{\versie}{v0.0}
+
+\titleformat{\chapter}[hang]
+    {\Huge\bfseries}{\thechapter}{20pt}{}{\Huge\bfseries}
+
+
+\author{\auteur}
+\date{\datum}
+\title{\titel}
+
+\begin{document}
+    
+    \input{coverpage}
+    \tableofcontents
+    \pagebreak
+    
+    \chapter{Week 1}
+    \markdownInput{week_1/hoorcollege.md}
+    
+    %\printbibliography
+    
+\end{document}
