@@ -7,7 +7,8 @@ steps:
     image: texlive:latest
     pull: never
     commands:
+      - pdflatex --shell-escape main
       - biber main
-      - pdflatex main
+      - pdflatex --shell-escape main
     when:
       event: push
