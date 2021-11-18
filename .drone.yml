@@ -1,0 +1,12 @@
+kind: pipeline
+type: docker
+name: Compileer TeX
+
+steps:
+  - name: Genereer PDF
+    image: texlive:latest
+    commands:
+      - biber main
+      - pdflatex main
+    when:
+      event: push
