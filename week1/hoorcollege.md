@@ -1,5 +1,5 @@
 ## Hoorcollege
-**Data Science** - is een multidisciplinair veld dat concepten uit Computer Science (informatica), statistiek/machine learning en data analyze gebruikt om inzichten te creëren in steeds groeiende hoeveelheden data.
+**Data Science** is een multidisciplinair veld dat concepten uit Computer Science (informatica), statistiek/machine learning en data analyze gebruikt om inzichten te creëren in steeds groeiende hoeveelheden data.
 
 Er bestaan twee *paradigms* binnen Data research (en dus data Science), namelijk:
 
@@ -8,6 +8,7 @@ Er bestaan twee *paradigms* binnen Data research (en dus data Science), namelijk
 
 
 Types Machine Learning:
-**Supervised Learning** - De data is voorzien van historische data waarmee getraind kan worden
-**Unsuperviced Learning** - Clusteren van data
-**Reinforcement Learning** - Leren door het interacteren met de omgeving
+
+* **Supervised Learning** - De data is voorzien van historische gegevens waarmee getraind kan worden
+* **Unsupervised Learning** - Clusteren van data
+* **Reinforcement Learning** - Leren door het interacteren met de omgeving
