@@ -12,3 +12,8 @@ Types Machine Learning:
 * **Supervised Learning** - De data is voorzien van historische gegevens waarmee getraind kan worden
 * **Unsupervised Learning** - Clusteren van data
 * **Reinforcement Learning** - Leren door het interacteren met de omgeving
+
+### Types van supervised Learning
+
+* **Classification** - Iets toewijzen tot een discrete set van van mogelijkheden. Zoals spam/geen-spam of bloed type
+* **Regressie** - Het voorspellen van een numerieke waarde.
