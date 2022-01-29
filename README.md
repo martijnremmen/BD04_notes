@@ -8,6 +8,6 @@
 
 ## Compilen project
 
-1. `pdflatex -output-directory='output' --shell-escape main.tex`
+1. `pdflatex --shell-escape main.tex`
 2. *Optioneel voor bibliografie* `biber main`
 3. *Optioneel voor bibliografie* `pdflatex main`
