@@ -55,7 +55,7 @@ Meten van puurheid ($m$ is het aantal categorieën):
 Ensemble learning is een strategie waarbij meerdere verschillende classifiers/models in één model worden gecombineerd. Dit reduceert *variantie* in de voorspelling. Er zijn verschillende Ensemble methodes:
 
 * **Bagging** - Er worden meerdere instanties van hetzelfde model gebouwd elk getrained op een verschillende subset van de originele dataset. Staat voor *"Bootrstrapping and Aggregating"*
-* **Random Forests** - Een methode specifiek voor Decision Trees. Werkt voort op dezelfde basis als **bagging** alleen wordt meer *randomness* gehanteerd bij het creeren van splitsingen in de boom.
+* **Random Forests** - Een methode specifiek voor Decision Trees. Werkt voort op dezelfde basis als **bagging** alleen wordt willekeurig een aantal features gekozen voor elke knoop.
 * **Boosting** - Verbeterd een model door informatie te gebruiken van vorige classifiers.
 
 Samengevat:
