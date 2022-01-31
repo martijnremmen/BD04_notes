@@ -33,6 +33,10 @@ Formeel gezien wat een model doet: $Y = f(\textbf{X}) + \epsilon$
 * **Prediction** - Wanneer we een goede estimate hebben van $\hat{f}(\textbf{X}$ kunnen we deze gebruiken om voorspellingen te maken op nieuwe data. We gebruiken $\hat{f}$ als een *black box*. We geven er niet om hoe of waarom het werkt, zolang de uitkomst redelijk accuraat is.
 * **Inferentie** - We willen begrijpen wat de relatie is tussen $\textbf{X}$ en $Y$. We behandelijk $\hat{f}$ niet langer als een *black box*. We willen begrijpen hoe $Y$ verandert ten opzichte van $\textbf{X}$
 
+Model eigenschappen:
+* **Parametric** - Modellen die een assumptie aannemen over de distributie van de data (bijvoorbeeld linear). Hierbij hoeven slechts de correcte parameters te worden gevonden. Maar als de daadwerkelijke distributie anders is zal dit een slecht model opleveren.
+* **Non-Parametric** - Modellen welke geen assumpties maken over de distributie. Deze kunnen worden op meer type distributies worden toegepast maar kunnen gemakkelijk *overfit* worden.
+
 
 
 * *underfitting* - Betekent dat er een hoge *bias* is en het model niet helemaal klopt
