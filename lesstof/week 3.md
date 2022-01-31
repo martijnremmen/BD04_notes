@@ -49,7 +49,7 @@ Metrics:
 * **Confusion Matrix** - 
 * **Accuracy** - Ratio van correcte voorspellingen over totale voorspellingen. $ accuracy = \frac{TP+TN}{TP+TN+FN+FP}$
 * **Precision** - Hoevaak de classifier correct is met het voorspellen van *positives*. $precision = \frac{TP}{TP+FP}$
-* **Recall / Sensitivity** - Hoevaak de classifier correct is $ recall = \frac{TP}{TP+FN} $
+* **Recall / Sensitivity** - Hoevaak de classifier correct is voor elke positieve instantie $ recall = \frac{TP}{TP+FN} $
 * **Specificity** - Hoevaak de classifier correct is met het voorspellen van *negatives*. $ specificity = \frac{TN}{FP+TN} $
 
 Cross validation:
